@@ -29,7 +29,7 @@ namespace WinFormsApp2
     }
 
     // Full-page background: your photo (cover mode + tint), or a modern drawn night-sky gradient.
-    // Everything is drawn ONCE into a cached bitmap, so repainting is fast (no lag).
+    // Everything is drawn ONCE into a cached bitmap, so repainting is fast (no lag)
     class SkyPanel : Panel
     {
         public Image Photo { get; set; }
